@@ -3,6 +3,12 @@
 Starter template for a GraphQL + WebSocket API: Express 5, Apollo Server 5,
 `graphql-ws` subscriptions, Prisma 7 on PostgreSQL, JWT auth, Jest tests.
 
+## Screenshots
+
+![GraphQL mutation and subscription](docs/screenshots/graphql.png)
+
+_Real output captured from a locally running instance (register, query, mutation and a live WebSocket subscription against PostgreSQL). Regenerate it by running the server and repeating those calls._
+
 ## What is included
 
 - `src/app.ts`: Express app with Helmet, CORS, a rate-limited `/graphql`
